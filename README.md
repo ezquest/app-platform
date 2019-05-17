@@ -16,7 +16,7 @@
  > REDIS_PORT
  > REDIS_PASSWORD
 ```
-#### - Json Commands
+### [Json Commands]
 <pre>
   - Auth:SignUp
   [Request]
@@ -81,7 +81,7 @@
   }  
 </pre>
 
-#### - Response(statusCode, message)
+### [Response(statusCode, message)]
 <pre>
   - SUCCESS(200, "The request is successful")
   - BAD_REQUEST(400, "Bad request")
