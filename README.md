@@ -23,13 +23,9 @@
   - Auth:SignIn
   [Request]
   {
-    "command":"Auth:SignIn",
+    "command":"Auth:SignUp",
     "id": "xxxx",
-    "password":"yyyy",
-    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715",
-    "profile": {
-      "name": "testtestestst"
-    }
+    "password":"yyyy"
   }
   [Response]
   {
@@ -38,10 +34,43 @@
   }
   
   - Auth:SignOut
+  [Request]
+  {
+    "command":"Auth:SignOut",
+    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715"
+  }
+  
   - Auth:SignDrop
+  [Request]
+  {
+    "command":"Auth:SignDrop",
+    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715"
+  }
   
   - User:GetUserInfo
+  [Request]
+  {
+    "command":"User:GetUserInfo",
+    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715"
+  }
+  [Response]
+  {
+    ...
+    "profile": {
+      "name": "zzz"
+    }
+  }
+  
   - User:UpdateUserInfo
+  [Request]
+  {
+    "command":"User:UpdateUserInfo",
+    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715",
+    "profile": {
+      "name": "ZZZZ"
+    }
+    
+  }  
 </pre>
 
 #### Response
