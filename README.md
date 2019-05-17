@@ -16,7 +16,7 @@
  > REDIS_PORT
  > REDIS_PASSWORD
 ```
-#### - Commands
+#### - Json Commands
 <pre>
   - Auth:SignUp
   [Request]
