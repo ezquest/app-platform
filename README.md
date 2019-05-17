@@ -9,10 +9,37 @@
 
 #### Commands
 <pre>
-  - Auth:SignIn
-  - Auth:SignOut
   - Auth:SignUp
+  [Request]
+  {
+    "command":"Auth:SignUp",
+    "id": "xxxx",
+    "password":"yyyy",
+    "profile": {
+      "name": "zzzz"
+    }
+  }
+  
+  - Auth:SignIn
+  [Request]
+  {
+    "command":"Auth:SignIn",
+    "id": "xxxx",
+    "password":"yyyy",
+    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715",
+    "profile": {
+      "name": "testtestestst"
+    }
+  }
+  [Response]
+  {
+    ...
+    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715"
+  }
+  
+  - Auth:SignOut
   - Auth:SignDrop
+  
   - User:GetUserInfo
   - User:UpdateUserInfo
 </pre>
