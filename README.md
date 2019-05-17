@@ -30,28 +30,28 @@
   [Response]
   {
     ...
-    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715"
+    "sessionId": "X-Y-Z"
   }
   
   - Auth:SignOut
   [Request]
   {
     "command":"Auth:SignOut",
-    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715"
+    "sessionId": "X-Y-Z"
   }
   
   - Auth:SignDrop
   [Request]
   {
     "command":"Auth:SignDrop",
-    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715"
+    "sessionId": "X-Y-Z"
   }
   
   - User:GetUserInfo
   [Request]
   {
     "command":"User:GetUserInfo",
-    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715"
+    "sessionId": "X-Y-Z"
   }
   [Response]
   {
@@ -65,15 +65,14 @@
   [Request]
   {
     "command":"User:UpdateUserInfo",
-    "sessionId": "10bea0d1-fd4d-47dd-bf83-c557d4db6715",
+    "sessionId": "X-Y-Z"
     "profile": {
       "name": "ZZZZ"
     }
-    
   }  
 </pre>
 
-#### Response
+#### Response(statusCode, message)
 <pre>
   - SUCCESS(200, "The request is successful")
   - BAD_REQUEST(400, "Bad request")
