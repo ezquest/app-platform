@@ -1,13 +1,13 @@
 # app-platform
 
-### [Android]
+#### [Android]
  * source: CouponBook_0517_3.zip
  * Config file 수정 필요
  ```
  > SERVER_URL은 본인의 서버주소로 변경
  ```
 ------------------------------------------------------
-### [Server]
+#### [Server]
  - source: yonsei.app_1.0.6.zip
  - jar: yonsei.app-1.0.6-fat.jar
  - Config file 수정
@@ -16,7 +16,7 @@
  > REDIS_PORT
  > REDIS_PASSWORD
 ```
-### [Json Commands]
+#### [Json Commands]
 <pre>
   - Auth:SignUp
   [Request]
@@ -81,7 +81,7 @@
   }  
 </pre>
 
-### [Response(statusCode, message)]
+#### [Response(statusCode, message)]
 <pre>
   - SUCCESS(200, "The request is successful")
   - BAD_REQUEST(400, "Bad request")
