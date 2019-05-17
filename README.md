@@ -1,5 +1,13 @@
 # app-platform
 
+### Android
+ - source: CouponBook_0517.zip
+ - Config file의 SERVER_URL은 본인의 서버주소로 변경필요
+
+### Server
+ - source: yonsei.app_1.0.6.zip
+ - jar: yonsei.app_1.0.6.zip
+ 
 #### Config file 수정
 <pre>
  - REDIS_HOST
