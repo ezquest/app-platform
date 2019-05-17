@@ -3,16 +3,19 @@
 ### [Android]
  * source: CouponBook_0517.zip
  * Config file 수정 필요
- - SERVER_URL은 본인의 서버주소로 변경
+ ```
+ > SERVER_URL은 본인의 서버주소로 변경
+ ```
 ------------------------------------------------------
 ### [Server]
  - source: yonsei.app_1.0.6.zip
  - jar: yonsei.app-1.0.6-fat.jar
  - Config file 수정
+ ```
  > REDIS_HOST
  > REDIS_PORT
  > REDIS_PASSWORD
-
+```
 #### -Commands
 <pre>
   - Auth:SignUp
