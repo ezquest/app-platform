@@ -1,7 +1,7 @@
 # app-platform
 
 #### [Android]
- * source: CouponBook_.zip
+ * source: CouponBook_hw12.zip
  * Config file 수정 필요
  ```
  > SERVER_URL은 본인의 서버주소로 변경
