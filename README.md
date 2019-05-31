@@ -1,11 +1,13 @@
 # app-platform
 
 #### [Android]
- * source: CouponBook_0517_3.zip
+ * source: CouponBook_.zip
  * Config file 수정 필요
  ```
  > SERVER_URL은 본인의 서버주소로 변경
+ > API_KEY는 본인의 key로 변경
  ```
+ 
 ------------------------------------------------------
 #### [Server]
  - source: yonsei.app_1.0.6.zip
