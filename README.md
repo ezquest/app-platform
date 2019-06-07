@@ -8,6 +8,11 @@
  > API_KEY는 본인의 key로 변경
  > AndroidManifest.xml의 com.google.android.geo.API_KEY value는 본인의 key로 변경
  ```
+ * HW13
+ ```
+ > Map View 추가
+ > Map View, StoreManager View, StoreAdd View 연동
+ ```
  
 ------------------------------------------------------
 #### [Server]
