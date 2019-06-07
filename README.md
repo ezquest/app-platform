@@ -1,11 +1,12 @@
 # app-platform
 
 #### [Android]
- * source: CouponBook_hw12.zip
+ * source: CouponBook_hw13.zip
  * Config file 수정 필요
  ```
  > SERVER_URL은 본인의 서버주소로 변경
  > API_KEY는 본인의 key로 변경
+ > AndroidManifest.xml의 com.google.android.geo.API_KEY value는 본인의 key로 변경
  ```
  
 ------------------------------------------------------
